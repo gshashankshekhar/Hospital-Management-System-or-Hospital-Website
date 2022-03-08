@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/project.js"></script>
+
+    <title></title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top  ">
+        <div class="container text-uppercase p-1">
+            <a class="navbar-brand font-weight-bold text-dark text-uppercase" href="#">Hospital Management </a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto text-uppercase font-weight-bold">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="specialist.php">Specialist</a>
+                        
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Ambulance Status
+          </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">General</a>
+                            <a class="dropdown-item" href="#">with oxygen</a>
+                            <a class="dropdown-item" href="#">Vantilator</a>
+                            <a class="dropdown-item" href="#"></a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Bed Status
+        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">General ward</a>
+                            <a class="dropdown-item" href="#">Cabin Single bed</a>
+                            <a class="dropdown-item" href="#">Cabin Double bed</a>
+
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php#contactus">ContactUs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php#aboutus">AboutUs</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Login
+        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="hms/user-login.php">Patients Login</a>
+                            <a class="dropdown-item" href="hms/doctor/">Doctor Login</a>
+                            <a class="dropdown-item" href="hms/admin">Admin Login</a>
+
+
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+    </nav>
+    </div>
+    </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/project.js"></script>
+    <script type="text/javascript"></script>
+    <script>
+        mybutton = document.getElementById('myBtn');
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
